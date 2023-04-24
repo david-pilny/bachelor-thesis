@@ -1,0 +1,22 @@
+Loading python36-modules/gcc
+  Loading requirement: python/3.6.2-gcc
+2023-03-26 22:29:53.880561: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-03-26 22:29:54.727839: I tensorflow/core/profiler/lib/profiler_session.cc:131] Profiler session initializing.
+2023-03-26 22:29:54.727903: I tensorflow/core/profiler/lib/profiler_session.cc:146] Profiler session started.
+2023-03-26 22:29:54.728619: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profiler session tear down.
+2023-03-26 22:31:29.928226: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+/software/python36-modules/gcc/lib/python3.6/site-packages/sklearn/preprocessing/label.py:235: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "train.py", line 208, in <module>
+    model.save('{0}{1}_atherosceloris_segmentation.h5'.format(training_output, training_id))
+  File "/software/python36-modules/gcc/lib/python3.6/site-packages/keras/engine/training.py", line 2146, in save
+    signatures, options, save_traces)
+  File "/software/python36-modules/gcc/lib/python3.6/site-packages/keras/saving/save.py", line 146, in save_model
+    model, filepath, overwrite, include_optimizer)
+  File "/software/python36-modules/gcc/lib/python3.6/site-packages/keras/saving/hdf5_format.py", line 101, in save_model_to_hdf5
+    tf.io.gfile.makedirs(dirpath)
+  File "/software/python36-modules/gcc/lib/python3.6/site-packages/tensorflow/python/lib/io/file_io.py", line 514, in recursive_create_dir_v2
+    _pywrap_file_io.RecursivelyCreateDir(compat.path_to_bytes(path))
+tensorflow.python.framework.errors_impl.FailedPreconditionError: /storage/brno2 is not a directory

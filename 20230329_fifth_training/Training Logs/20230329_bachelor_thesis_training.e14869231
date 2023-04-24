@@ -1,0 +1,10 @@
+Loading python36-modules/gcc
+  Loading requirement: python/3.6.2-gcc
+2023-03-29 18:23:29.414101: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-03-29 18:23:30.460790: I tensorflow/core/profiler/lib/profiler_session.cc:131] Profiler session initializing.
+2023-03-29 18:23:30.460855: I tensorflow/core/profiler/lib/profiler_session.cc:146] Profiler session started.
+2023-03-29 18:23:30.461572: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profiler session tear down.
+2023-03-29 18:24:49.452372: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+/software/python36-modules/gcc/lib/python3.6/site-packages/sklearn/preprocessing/label.py:235: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
