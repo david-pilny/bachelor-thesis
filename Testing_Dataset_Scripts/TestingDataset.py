@@ -98,6 +98,6 @@ def create_dataset(input_dir,
 
     index = 0
     for mask in generated_labels:
-        cv2.imwrite(os.path.join(output_dir_masks, '{0}.png'.format(index)), img)
+        cv2.imwrite(os.path.join(output_dir_masks, '{0}.png'.format(index)), mask)
         index += 1
     print('Dataset generated !')

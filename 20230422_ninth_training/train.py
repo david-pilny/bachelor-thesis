@@ -135,7 +135,7 @@ history = model.fit(train_generator,
                     validation_data=val_generator, 
                     steps_per_epoch=steps_per_epoch, 
                     validation_steps=steps_per_epoch, 
-                    epochs=15)
+                    epochs=30)
 
 model.save('{0}{1}_atherosceloris_model.h5'.format(training_output, training_id))
 
