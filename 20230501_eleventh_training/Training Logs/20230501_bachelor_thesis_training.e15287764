@@ -1,0 +1,16 @@
+Loading python36-modules/gcc
+  Loading requirement: python/3.6.2-gcc
+2023-05-01 19:12:46.942637: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-05-01 19:19:57.132434: I tensorflow/core/profiler/lib/profiler_session.cc:131] Profiler session initializing.
+2023-05-01 19:19:57.132611: I tensorflow/core/profiler/lib/profiler_session.cc:146] Profiler session started.
+2023-05-01 19:19:57.132766: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profiler session tear down.
+2023-05-01 19:21:23.278289: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 151519232 exceeds 10% of free system memory.
+2023-05-01 19:21:23.797999: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2023-05-01 19:21:26.288433: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 151519232 exceeds 10% of free system memory.
+2023-05-01 19:21:26.463071: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 606076928 exceeds 10% of free system memory.
+2023-05-01 19:21:27.683482: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 606076928 exceeds 10% of free system memory.
+2023-05-01 19:21:27.910268: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 151519232 exceeds 10% of free system memory.
+=>> PBS: job killed: walltime 86455 exceeded limit 86400
+Terminated
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
